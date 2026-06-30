@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0276/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0276/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 靈劍子引導子午記
+  date: '2015-08-29 00:15:36.675350'
+  source:
+    repository: kanripo
+    path: KR5b0276
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0276_000-HFL.yaml, hash: 'sha256:35c7befb3f49ebe6fb261d23eb0c804d0cd9457880d5c4baee32ee383e944ca3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0276_000-HFL.markers.yaml, hash: 'sha256:dfa57e6419a034872d68dc62c8dba09bef04a82e7eb40f6cf67107ff0c677040'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0276_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3561
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:9f8baceb6806993a46855f8b308825843863cc0690f3560826915114a24cae32
